@@ -6,6 +6,7 @@ export default function Main(): string {
     <main class="py-4">
         <div class="wrapper mx-auto |  flow">
             ${Galleries()}
+            <hr>
             ${Editor()}
         </div>
     </main>
