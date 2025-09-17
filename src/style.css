@@ -67,8 +67,8 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--color-pastel-pink-500);
+  color: theme("colors.gray.900");
   font-family: var(--font-sans);
 }
 
@@ -87,10 +87,10 @@ button {
 
 .wrapper {
   max-width: theme("screens.lg");
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: theme("spacing.4");
-  padding-right: theme("spacing.4");
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  padding-inline-start: theme("spacing.4");
+  padding-inline-end: theme("spacing.4");
 }
 
 .flow > * + * {
