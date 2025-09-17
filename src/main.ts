@@ -4,7 +4,7 @@ import Main from "./components/Main"
 import Footer from "./components/Footer"
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
-  <div class="relative pb-[20px]">
+  <div class="relative">
     ${Header()}
     ${Main()}
     ${Footer()}
