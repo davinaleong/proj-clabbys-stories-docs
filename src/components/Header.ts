@@ -3,8 +3,6 @@ import iconPrinter from "./../assets/icons/printer-w.svg"
 import logoWhite from "./../assets/logos/logo-white.png"
 
 export default function Header(): string {
-  console.log("User OS:", getOS())
-
   const keyName = getOS() === "macOS" ? "Cmd" : "Cntrl"
 
   return `
