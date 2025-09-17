@@ -1,7 +1,15 @@
 export default function Footer(): string {
   return `
-    <footer>
-      Footer
+    <footer class="fixed bottom-0 left-0 right-0 text-gray-900 bg-pastel-pink-500">
+      <div class="wrapper mx-auto">
+        <nav class="flex gap-2 items-center text-sm justify-center">
+          <a class="underline hover:opacity-70" href="#galleries">Galleries</a>
+          <span>|</span>
+          <a class="underline hover:opacity-70" href="#editor">Editor</a>
+          <span>|</span>
+          <a class="underline hover:opacity-70" href="#top">Back to Top</a>
+        </nav>
+      </div>
     </footer>
   `
 }

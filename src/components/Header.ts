@@ -26,7 +26,7 @@ export default function Header(): string {
               </span>
             </a>
 
-            <div class="flex items-center gap-4">
+            <div class="flex items-center gap-2">
               <a class="underline hover:opacity-70" href="#galleries">Galleries</a>
               <span>|</span>
               <a class="underline hover:opacity-70" href="#editor">Editor</a>
