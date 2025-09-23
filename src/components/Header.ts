@@ -28,6 +28,8 @@ export default function Header(): string {
               <a class="underline hover:opacity-70" href="#galleries">Galleries</a>
               <span>|</span>
               <a class="underline hover:opacity-70" href="#editor">Editor</a>
+              <span>|</span>
+              <a class="underline hover:opacity-70" href="#top">Back to Top</a>
             </div>
           </nav>
         </div>      

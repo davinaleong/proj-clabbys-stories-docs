@@ -3,8 +3,8 @@ import Editor from "./Editor"
 
 export default function Main(): string {
   return `
-    <main class="py-4">
-        <div class="wrapper mx-auto |  flow">
+    <main>
+        <div class="wrapper bg-white py-4 mx-auto |  flow">
             ${Galleries()}
             <hr>
             ${Editor()}
