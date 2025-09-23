@@ -8,6 +8,10 @@ export default function Main(): string {
             ${Galleries()}
             <hr>
             ${Editor()}
+            <hr>
+            <p class="text-center text-sm">
+                <em>&ndash; End of Section &ndash;</em>
+            </p>
         </div>
     </main>
     `

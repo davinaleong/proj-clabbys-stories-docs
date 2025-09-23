@@ -7,6 +7,16 @@ export default function Galleries(): string {
   return `
     <section id="galleries" class="flow">
         <h2 class="text-2xl font-serif font-semibold">Galleries</h2>
+
+        <nav aria-label="Galleries Menu">
+            <menu class="list-disc list-inside">
+                <li><a href="#public-galleries">Public Galleries</a></li>
+                <li><a href="#private-galleries">Private Galleries</a></li>
+                <li><a href="#gallery-upload">Upload a Gallery</a></li>
+                <li><a href="#gallery-management">Manage Galleries</a></li>
+            </menu>
+        </nav>
+
         
         <h3 class="text-xl font-serif font-semibold">Public Galleries</h3>
         <p>Public galleries are accessible to anyone who has the link.</p>
@@ -61,6 +71,10 @@ export default function Galleries(): string {
         <p>The slideshow will begin playing automatically.</p>
         <p>You can select “Hide/Show Info” to toggle the gallery’s metadata.</p>
         <img src="${img0004}" alt="Screenshot 0004" class="rounded-sm shadow-md">
+
+        <p class="text-center text-sm">
+            <em>&ndash; End of Section &ndash;</em>
+        </p>
     </section>
 
     `
