@@ -17,6 +17,7 @@ export default function Galleries(): string {
             </menu>
         </nav>
 
+        <hr>
         
         <h3 id="public-galleries" class="text-xl font-serif font-semibold">Public Galleries</h3>
         <p>Public galleries are accessible to anyone who has the link.</p>

@@ -10,7 +10,7 @@ export default function Main(): string {
             ${Editor()}
             <hr>
             <p class="text-center text-sm">
-                <em>&ndash; End of Section &ndash;</em>
+                <em>&ndash; End of Main &ndash;</em>
             </p>
         </div>
     </main>
