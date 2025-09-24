@@ -10,15 +10,15 @@ export default function Galleries(): string {
 
         <nav aria-label="Galleries Menu">
             <menu class="list-disc list-inside">
-                <li><a href="#public-galleries">Public Galleries</a></li>
-                <li><a href="#private-galleries">Private Galleries</a></li>
-                <li><a href="#gallery-upload">Upload a Gallery</a></li>
-                <li><a href="#gallery-management">Manage Galleries</a></li>
+                <li><a href="#public-galleries"
+                class="underline hover:opacity-70">Public Galleries</a></li>
+                <li><a href="#published-galleries" class="underline hover:opacity-70">Published (Private) Galleries</a></li>
+                <li><a href="#slideshow-galleries" class="underline hover:opacity-70">Slideshow Galleries</a></li>
             </menu>
         </nav>
 
         
-        <h3 class="text-xl font-serif font-semibold">Public Galleries</h3>
+        <h3 id="public-galleries" class="text-xl font-serif font-semibold">Public Galleries</h3>
         <p>Public galleries are accessible to anyone who has the link.</p>
 
         <p><strong>Prerequisites:</strong></p>
@@ -36,7 +36,7 @@ export default function Galleries(): string {
 
         <hr>
 
-        <h3 class="text-xl font-serif font-semibold">Published (Private) Galleries</h3>
+        <h3 id="published-galleries" class="text-xl font-serif font-semibold">Published (Private) Galleries</h3>
         <p>Published (private) galleries are accessible to those who have both the link and the passphrase.</p>
 
         <p><strong>Prerequisites:</strong></p>
@@ -58,7 +58,7 @@ export default function Galleries(): string {
 
         <hr>
 
-        <h3 class="text-xl font-serif font-semibold">Slideshow Galleries</h3>
+        <h3 id="slideshow-galleries" class="text-xl font-serif font-semibold">Slideshow Galleries</h3>
         <p>Slideshow galleries automatically transition between photos at a set interval.</p>
 
         <p><strong>Prerequisites:</strong></p>
