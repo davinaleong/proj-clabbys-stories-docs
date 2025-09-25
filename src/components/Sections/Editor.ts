@@ -1,4 +1,3 @@
-import img0005 from "./../../assets/images/0005.png"
 import Menu from "./../Menu"
 import ArticleLogin from "./../Articles/Login"
 import ArticleGalleries from "./../Articles/Galleries"
