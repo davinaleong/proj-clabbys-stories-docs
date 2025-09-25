@@ -6,26 +6,29 @@ import img0010 from "./../../assets/images/0010.png"
 import img0011 from "./../../assets/images/0011.png"
 import img0012 from "./../../assets/images/0012.png"
 import img0013 from "./../../assets/images/0013.png"
+import Menu from "./../Menu"
 import DividerArticle from "../Dividers/Article"
+
+const ariaLabel: string = "Editor - Galleries Submenu"
+const liList: string = `
+    <li><a href="#galleries-create" class="underline hover:opacity-70">Create a Gallery</a></li>
+    <li><a href="#galleries-edit" class="underline hover:opacity-70">Edit a Gallery</a></li>
+    <li><a href="#galleries-add-photos" class="underline hover:opacity-70">Add Photos to an Existing Gallery</a></li>
+    <li><a href="#galleries-passphrase" class="underline hover:opacity-70">Setting a Passphrase</a></li>
+    <li><a href="#galleries-archive" class="underline hover:opacity-70">Archiving a Gallery</a></li>
+    <li><a href="#galleries-save" class="underline hover:opacity-70">Saving a Gallery</a></li>
+    <li><a href="#galleries-update" class="underline hover:opacity-70">Updating a Photo's Metadata</a></li>
+    <li><a href="#galleries-move" class="underline hover:opacity-70">Moving a Photo</a></li>
+    <li><a href="#galleries-remove-photo" class="underline hover:opacity-70">Removing a Photo</a></li>
+`
+const navMenu: string = Menu(liList, ariaLabel)
 
 export default function ArticleGalleries(): string {
   return `
     <article id="editor-galleries" class="flow">
         <h3 class="text-xl font-serif font-semibold">Galleries</h3>
 
-        <nav aria-label="Galleries Submenu" class="bg-neutral-200 p-2 rounded-sm">
-          <menu class="flex flex-wrap gap-4 list-none">
-            <li><a href="#galleries-create" class="underline hover:opacity-70">Create a Gallery</a></li>
-            <li><a href="#galleries-edit" class="underline hover:opacity-70">Edit a Gallery</a></li>
-            <li><a href="#galleries-add-photos" class="underline hover:opacity-70">Add Photos to an Existing Gallery</a></li>
-            <li><a href="#galleries-passphrase" class="underline hover:opacity-70">Setting a Passphrase</a></li>
-            <li><a href="#galleries-archive" class="underline hover:opacity-70">Archiving a Gallery</a></li>
-            <li><a href="#galleries-save" class="underline hover:opacity-70">Saving a Gallery</a></li>
-            <li><a href="#galleries-update" class="underline hover:opacity-70">Updating a Photo's Metadata</a></li>
-            <li><a href="#galleries-move" class="underline hover:opacity-70">Moving a Photo</a></li>
-            <li><a href="#galleries-remove-photo" class="underline hover:opacity-70">Removing a Photo</a></li>
-          </menu>
-        </nav>
+        ${navMenu}
 
         <hr>
 
