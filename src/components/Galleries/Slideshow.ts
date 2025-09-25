@@ -1,4 +1,5 @@
 import img0004 from "./../../assets/images/0004.png"
+import SectionDivider from "../SectionDivider"
 
 export default function SlideshowGalleries(): string {
   return `
@@ -16,6 +17,8 @@ export default function SlideshowGalleries(): string {
             <p>The slideshow will begin playing automatically.</p>
             <p>You can select “Hide/Show Info” to toggle the gallery’s metadata.</p>
             <img src="${img0004}" alt="Screenshot 0004" class="rounded-sm shadow-md">
+
+            ${SectionDivider()}
             
             <hr>
         </section>

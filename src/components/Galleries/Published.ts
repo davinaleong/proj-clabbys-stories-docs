@@ -1,6 +1,7 @@
 import img0001 from "./../../assets/images/0001.png"
 import img0002 from "./../../assets/images/0002.png"
 import img0003 from "./../../assets/images/0003.png"
+import SectionDivider from "../SectionDivider"
 
 export default function PublishedGalleries(): string {
   return `
@@ -24,6 +25,8 @@ export default function PublishedGalleries(): string {
             
             <p>Select a photo to view a larger version. You can also view its metadata, such as the title, description, and date.</p>
             <img src="${img0003}" alt="Screenshot 0003" class="rounded-sm shadow-md">
+
+            ${SectionDivider()}
 
             <hr>
         </section>

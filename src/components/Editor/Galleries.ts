@@ -1,18 +1,19 @@
-import img0006 from "./../assets/images/0006.png"
-import img0007 from "./../assets/images/0007.png"
-import img0008 from "./../assets/images/0008.png"
-import img0009 from "./../assets/images/0009.png"
-import img0010 from "./../assets/images/0010.png"
-import img0011 from "./../assets/images/0011.png"
-import img0012 from "./../assets/images/0012.png"
-import img0013 from "./../assets/images/0013.png"
+import img0006 from "./../../assets/images/0006.png"
+import img0007 from "./../../assets/images/0007.png"
+import img0008 from "./../../assets/images/0008.png"
+import img0009 from "./../../assets/images/0009.png"
+import img0010 from "./../../assets/images/0010.png"
+import img0011 from "./../../assets/images/0011.png"
+import img0012 from "./../../assets/images/0012.png"
+import img0013 from "./../../assets/images/0013.png"
+import SectionDivider from "../SectionDivider"
 
 export default function EditorGalleries(): string {
   return `
     <section id="editor-galleries" class="flow">
         <h3 class="text-xl font-serif font-semibold">Galleries</h3>
 
-        <nav aria-label="Galleries Submenu">
+        <nav aria-label="Galleries Submenu" class="bg-neutral-200 p-2 rounded-sm">
           <menu class="flex flex-wrap gap-4 list-none">
             <li><a href="#galleries-create" class="underline hover:opacity-70">Create a Gallery</a></li>
             <li><a href="#galleries-edit" class="underline hover:opacity-70">Edit a Gallery</a></li>
@@ -25,6 +26,8 @@ export default function EditorGalleries(): string {
             <li><a href="#galleries-remove-photo" class="underline hover:opacity-70">Removing a Photo</a></li>
           </menu>
         </nav>
+
+        <hr>
 
         <h4 id="editor-galleries-create" class="font-serif font-semibold">Create a Gallery</h4>
         <p><strong>Steps:</strong></p>
@@ -170,6 +173,8 @@ export default function EditorGalleries(): string {
         </ol>
 
         <img src="${img0011}" alt="Screenshot 0011" class="rounded-sm shadow-md">
+
+        ${SectionDivider()}
 
         <hr>
     </section>

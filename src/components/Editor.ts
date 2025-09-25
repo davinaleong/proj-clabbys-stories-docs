@@ -1,6 +1,6 @@
 import img0005 from "./../assets/images/0005.png"
-import EditorGalleries from "./EditorGalleries"
-import EditorFaq from "./EditorFaq"
+import Galleries from "./Editor/Galleries"
+import Faq from "./Editor/Faq"
 import SectionDivider from "./SectionDivider"
 
 export default function Editor(): string {
@@ -8,7 +8,7 @@ export default function Editor(): string {
     <section id="editor" class="flow"></section>
         <h2 class="text-2xl font-serif font-semibold">Editor</h2>
         
-        <nav aria-label="Galleries Menu">
+        <nav aria-label="Galleries Menu" class="bg-neutral-200 p-2 rounded-sm">
             <menu class="flex flex-wrap gap-4 list-none">
                 <li><a href="#login" class="underline hover:opacity-70">Login</a></li>
                 <li><a href="#galleries" class="underline hover:opacity-70">Galleries</a></li>
@@ -36,7 +36,7 @@ export default function Editor(): string {
 
         <hr>
 
-        ${EditorGalleries()}
+        ${Galleries()}
 
         <h3 id="archives" class="text-xl font-serif font-semibold">Archives</h3>
 
@@ -46,7 +46,7 @@ export default function Editor(): string {
 
         <hr>
 
-        ${EditorFaq()}
+        ${Faq()}
         
         ${SectionDivider()}
     </section>
