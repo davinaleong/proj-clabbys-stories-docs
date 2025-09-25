@@ -44,7 +44,21 @@ export default function Editor(): string {
 
         <h3 id="galleries" class="text-xl font-serif font-semibold">Galleries</h3>
 
-        <h4 class="font-serif font-semibold">Create a Gallery</h4>
+        <nav aria-label="Galleries Submenu">
+          <menu class="list-disc list-inside">
+            <li><a href="#galleries-create" class="underline hover:opacity-70">Create a Gallery</a></li>
+            <li><a href="#galleries-edit" class="underline hover:opacity-70">Edit a Gallery</a></li>
+            <li><a href="#galleries-add-photos" class="underline hover:opacity-70">Add Photos to an Existing Gallery</a></li>
+            <li><a href="#galleries-passphrase" class="underline hover:opacity-70">Setting a Passphrase</a></li>
+            <li><a href="#galleries-archive" class="underline hover:opacity-70">Archiving a Gallery</a></li>
+            <li><a href="#galleries-save" class="underline hover:opacity-70">Saving a Gallery</a></li>
+            <li><a href="#galleries-update" class="underline hover:opacity-70">Updating a Photo's Metadata</a></li>
+            <li><a href="#galleries-move" class="underline hover:opacity-70">Moving a Photo</a></li>
+            <li><a href="#galleries-remove-photo" class="underline hover:opacity-70">Removing a Photo</a></li>
+          </menu>
+        </nav>
+
+        <h4 id="galleries-create" class="font-serif font-semibold">Create a Gallery</h4>
         <p><strong>Steps:</strong></p>
         <ol class="list-decimal list-inside">
             <li>Select <strong>Create</strong>.</li>
@@ -64,7 +78,7 @@ export default function Editor(): string {
 
         <img src="${img0007}" alt="Screenshot 0007" class="rounded-sm shadow-md">
 
-        <h4 class="font-serif font-semibold">Edit a Gallery</h4>
+        <h4 id="galleries-edit" class="font-serif font-semibold">Edit a Gallery</h4>
         <p><strong>Steps:</strong></p>
         <ol class="list-decimal list-inside">
             <li>Go to the main <strong>Galleries</strong> page.</li>
@@ -94,7 +108,7 @@ export default function Editor(): string {
         </ul>
         <img src="${img0008}" alt="Screenshot 0008" class="rounded-sm shadow-md">
 
-        <h4 class="font-serif font-semibold">Add Photos to an Existing Gallery</h4>
+        <h4 id="galleries-add-photos" class="font-serif font-semibold">Add Photos to an Existing Gallery</h4>
 
         <p><strong>Steps:</strong></p>
         <ol class="list-decimal list-inside">
@@ -112,7 +126,7 @@ export default function Editor(): string {
           <img src="${img0010}" alt="Screenshot 0010" class="rounded-sm shadow-md">
         </div>
 
-        <h4 class="font-serif font-semibold">Setting a Passphrase</h4>
+        <h4 id="galleries-passphrase" class="font-serif font-semibold">Setting a Passphrase</h4>
         <p><strong>Steps:</strong></p>
         <ol class="list-decimal list-inside">
             <li>Go to the main <strong>Galleries</strong> page.</li>
@@ -130,7 +144,7 @@ export default function Editor(): string {
 
         <img src="${img0013}" alt="Screenshot 0013" class="rounded-sm shadow-md">
 
-        <h4 class="font-serif font-semibold">Archiving a Gallery</h4>
+        <h4 id="galleries-archive" class="font-serif font-semibold">Archiving a Gallery</h4>
         <p><strong>Steps:</strong></p>
         <ol class="list-decimal list-inside">
             <li>Go to the main <strong>Galleries</strong> page.</li>
@@ -139,7 +153,7 @@ export default function Editor(): string {
             <li>Wait till the you are redirected to the <strong>main Galleries page</strong>.</li>
         </ol>
 
-        <h4 class="font-serif font-semibold">Saving a Gallery</h4>
+        <h4 id="galleries-save" class="font-serif font-semibold">Saving a Gallery</h4>
         <p><strong>Steps:</strong></p>
         <ol class="list-decimal list-inside">
             <li>Go to the main <strong>Galleries</strong> page.</li>
@@ -149,7 +163,7 @@ export default function Editor(): string {
             <li>Wait till the a toast appears before closing the page.</li>
         </ol>
 
-        <h4 class="font-serif font-semibold">Updating a Photo's Metadata</h4>
+        <h4 id="galleries-update" class="font-serif font-semibold">Updating a Photo's Metadata</h4>
         <p><strong>Steps:</strong></p>
         <ol class="list-decimal list-inside">
             <li>Go to the main <strong>Galleries</strong> page.</li>
@@ -164,6 +178,30 @@ export default function Editor(): string {
           <img src="${img0011}" alt="Screenshot 0011" class="rounded-sm shadow-md">
           <img src="${img0012}" alt="Screenshot 0012" class="rounded-sm shadow-md">
         </div>
+
+        <h4 id="galleries-move" class="font-serif font-semibold">Moving a Photo</h4>
+        <p><strong>Steps:</strong></p>
+        <ol class="list-decimal list-inside">
+            <li>Go to the main <strong>Galleries</strong> page.</li>
+            <li>Select an <strong>existing gallery</strong>.</li>
+            <li>Right-click on a <strong>laptop/desktop</strong> or long-tap on a <strong>phone/tablet</strong> to toggle the context menu.</li>
+            <li>Select <strong>any of the galleries</strong> under <strong>Move to...</strong>.</li>
+            <li>The photo will be moved to the <strong>selected Gallery</strong>.</li>
+        </ol>
+
+        <img src="${img0011}" alt="Screenshot 0011" class="rounded-sm shadow-md">
+
+        <h4 id="galleries-remove-photo" class="font-serif font-semibold">Removing a Photo</h4>
+        <p><strong>Steps:</strong></p>
+        <ol class="list-decimal list-inside">
+            <li>Go to the main <strong>Galleries</strong> page.</li>
+            <li>Select an <strong>existing gallery</strong>.</li>
+            <li>Right-click on a <strong>laptop/desktop</strong> or long-tap on a <strong>phone/tablet</strong> to toggle the context menu.</li>
+            <li>Select <strong>Remove</strong>.</li>
+            <li>The photo will be <strong>removed</strong> from the <strong>current Gallery</strong>.</li>
+        </ol>
+
+        <img src="${img0011}" alt="Screenshot 0011" class="rounded-sm shadow-md">
 
         <hr>
 
