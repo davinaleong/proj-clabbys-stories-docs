@@ -7,7 +7,8 @@ export default function Main(): string {
     <main>
         <div class="wrapper bg-white py-4 mx-auto |  flow">
             ${SectionGalleries()}
-            ${SectionEditor()}]
+            ${SectionEditor()}
+            <hr>
             ${DividerDocument()}
         </div>
     </main>
