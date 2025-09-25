@@ -10,7 +10,7 @@ export default function ArticlePublished(): string {
             <p>Published (private) galleries are accessible to those who have both the link and the passphrase.</p>
 
             <p><strong>Prerequisites:</strong></p>
-            <ul class="list-disc list-inside">
+            <ul class="list-disc pl-5">
                 <li>Gallery link</li>
                 <li>Gallery passphrase</li>
             </ul>

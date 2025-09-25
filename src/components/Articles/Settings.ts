@@ -7,7 +7,7 @@ export default function ArticleSettings(): string {
             <h3 class="text-xl font-serif font-semibold">Settings</h3>
 
             <p><strong>Fields:</strong></p>
-            <ol class="list-decimal list-inside">
+            <ol class="list-decimal pl-5">
                 <li><strong>App Name</strong>: Change the name of the application.</li>
 
                 <li>

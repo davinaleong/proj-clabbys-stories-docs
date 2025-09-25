@@ -26,7 +26,7 @@ export default function ArticleRestore(): string {
 
             <h4 id="archives-restore" class="font-serif font-semibold">Restore an Archive</h4>
             <p><strong>Steps:</strong></p>
-            <ol class="list-decimal list-inside">
+            <ol class="list-decimal pl-5">
                 <li>Open the <strong>Archives</strong> page.</li>
                 <li>Select the <strong>archive you want to restore</strong>.</li>
                 <li>Select <strong>Restore</strong>.</li>
@@ -37,7 +37,7 @@ export default function ArticleRestore(): string {
 
             <h4 id="archives-delete" class="font-serif font-semibold">Permanently Delete an Archive</h4>
             <p><strong>Steps:</strong></p>
-            <ol class="list-decimal list-inside">
+            <ol class="list-decimal pl-5">
                 <li>Open the <strong>Archives</strong> page.</li>
                 <li>Select the <strong>archive you want to delete</strong>.</li>
                 <li>Select <strong>Delete Permanently</strong>.</li>

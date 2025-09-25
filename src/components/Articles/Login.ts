@@ -6,13 +6,13 @@ export default function ArticleLogin(): string {
         <article id="login" class="flow">
             <h3 class="text-xl font-serif font-semibold">Login</h3>
             <p><strong>Prerequisites:</strong></p>
-            <ul class="list-disc list-inside">
+            <ul class="list-disc pl-5">
                 <li>Link to the Editor</li>
                 <li>Login information</li>
             </ul>
     
             <p><strong>Steps:</strong></p>
-            <ol class="list-decimal list-inside">
+            <ol class="list-decimal pl-5">
                 <li>Enter the login information and select <strong>Log In</strong>.</li>
             </ol>
     

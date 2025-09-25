@@ -8,7 +8,7 @@ export default function ArticleSlideshow(): string {
             <p>Slideshow galleries automatically transition between photos at a set interval.</p>
 
             <p><strong>Prerequisites:</strong></p>
-            <ul class="list-disc list-inside">
+            <ul class="list-disc pl-5">
                 <li>Gallery link</li>
             </ul>
 

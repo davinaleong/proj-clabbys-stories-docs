@@ -9,7 +9,7 @@ export default function ArticlesPublic(): string {
             <p>Public galleries are accessible to anyone who has the link.</p>
 
             <p><strong>Prerequisites:</strong></p>
-            <ul class="list-disc list-inside">
+            <ul class="list-disc pl-5">
                 <li>Gallery link</li>
             </ul>
 
