@@ -4,6 +4,7 @@ import img0007 from "./../assets/images/0007.png"
 import img0008 from "./../assets/images/0008.png"
 import img0009 from "./../assets/images/0009.png"
 import img0010 from "./../assets/images/0010.png"
+import img0011 from "./../assets/images/0011.png"
 import img0013 from "./../assets/images/0013.png"
 import img0017 from "./../assets/images/0017.png"
 
@@ -127,6 +128,25 @@ export default function Editor(): string {
         </ul>
 
         <img src="${img0013}" alt="Screenshot 0013" class="rounded-sm shadow-md">
+
+        <h4 class="font-serif font-semibold">Archiving a Gallery</h4>
+        <p><strong>Steps:</strong></p>
+        <ol class="list-decimal list-inside">
+            <li>Go to the main <strong>Galleries</strong> page.</li>
+            <li>Select an <strong>existing gallery</strong>.</li>
+            <li>Select <strong>Archive</strong>.</li>
+            <li>Wait till the you are redirected to the <strong>main Galleries page</strong>.</li>
+        </ol>
+
+        <h4 class="font-serif font-semibold">Saving a Gallery</h4>
+        <p><strong>Steps:</strong></p>
+        <ol class="list-decimal list-inside">
+            <li>Go to the main <strong>Galleries</strong> page.</li>
+            <li>Select an <strong>existing gallery</strong>.</li>
+            <li>Make the changes to the available fields.</li>
+            <li>Select <strong>Save</strong>.</li>
+            <li>Wait till the a toast appears before closing the page.</li>
+        </ol>
 
         <hr>
 
