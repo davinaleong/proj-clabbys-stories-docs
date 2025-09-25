@@ -2,6 +2,7 @@ import img0005 from "./../../assets/images/0005.png"
 import Menu from "./../Menu"
 import ArticleLogin from "./../Articles/Login"
 import ArticleGalleries from "./../Articles/Galleries"
+import ArticleArchives from "./../Articles/Archives"
 import ArticleFaq from "./../Articles/Faq"
 import DividerSection from "./../Dividers/Section"
 
@@ -26,10 +27,7 @@ export default function SectionEditor(): string {
 
         ${ArticleLogin()}
         ${ArticleGalleries()}
-
-        <h3 id="archives" class="text-xl font-serif font-semibold">Archives</h3>
-
-        <hr>
+        ${ArticleArchives()}
 
         <h3 id="settings" class="text-xl font-serif font-semibold">Settings</h3>
 
