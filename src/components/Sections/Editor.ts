@@ -3,6 +3,7 @@ import Menu from "./../Menu"
 import ArticleLogin from "./../Articles/Login"
 import ArticleGalleries from "./../Articles/Galleries"
 import ArticleArchives from "./../Articles/Archives"
+import ArticleSettings from "../Articles/Settings"
 import ArticleFaq from "./../Articles/Faq"
 import DividerSection from "./../Dividers/Section"
 
@@ -28,11 +29,7 @@ export default function SectionEditor(): string {
         ${ArticleLogin()}
         ${ArticleGalleries()}
         ${ArticleArchives()}
-
-        <h3 id="settings" class="text-xl font-serif font-semibold">Settings</h3>
-
-        <hr>
-
+        ${ArticleSettings()}
         ${ArticleFaq()}
         
         ${DividerSection()}

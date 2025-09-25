@@ -6,8 +6,8 @@ import DividerArticle from "../Dividers/Article"
 const ariaLabel: string = "Editor Menu - Archives Submenu"
 const liList: string = `
     <li><a href="#archives-main" class="underline hover:opacity-70">Main Page</a></li>
-    <li><a href="#archives-restore" class="underline hover:opacity-70">Restoring an Archive</a></li>
-    <li><a href="#archives-delete" class="underline hover:opacity-70">Permanently Deleting an Archive</a></li>
+    <li><a href="#archives-restore" class="underline hover:opacity-70">Restore an Archive</a></li>
+    <li><a href="#archives-delete" class="underline hover:opacity-70">Permanently Delete an Archive</a></li>
 `
 const navMenu: string = Menu(liList, ariaLabel)
 
@@ -21,29 +21,29 @@ export default function ArticleRestore(): string {
             <hr>
 
             <h4 id="archives-main" class="font-serif font-semibold">Main Page</h4>
-            <p>The main Archives page lists all of your archived galleries.</p>
-            <img src="${img0014}" alt="Screenshot 0014" class="rounded-sm shadow-md">
+            <p>The Archives page displays a list of all galleries that have been archived.</p>
+            <img src="${img0014}" alt="Archives Main Page Screenshot" class="rounded-sm shadow-md">
 
-            <h4 id="archives-restore" class="font-serif font-semibold">Restoring an Archive</h4>
+            <h4 id="archives-restore" class="font-serif font-semibold">Restore an Archive</h4>
             <p><strong>Steps:</strong></p>
             <ol class="list-decimal list-inside">
-                <li>Select <strong>Archives</strong>.</li>
+                <li>Open the <strong>Archives</strong> page.</li>
                 <li>Select the <strong>archive you want to restore</strong>.</li>
                 <li>Select <strong>Restore</strong>.</li>
-                <li>Select <strong>Galleries</strong>.</li>
-                <li>You should see the <strong>restored Gallery</strong>.</li>
+                <li>Return to the <strong>Galleries</strong> page.</li>
+                <li>You should now see the <strong>restored gallery</strong>.</li>
             </ol>
-            <img src="${img0015}" alt="Screenshot 0015" class="rounded-sm shadow-md">
+            <img src="${img0015}" alt="Restore Archive Screenshot" class="rounded-sm shadow-md">
 
-            <h4 id="archives-delete" class="font-serif font-semibold">Permanently Deleting an Archive</h4>
+            <h4 id="archives-delete" class="font-serif font-semibold">Permanently Delete an Archive</h4>
             <p><strong>Steps:</strong></p>
             <ol class="list-decimal list-inside">
-                <li>Select <strong>Archives</strong>.</li>
-                <li>Select the <strong>archive you want to restore</strong>.</li>
+                <li>Open the <strong>Archives</strong> page.</li>
+                <li>Select the <strong>archive you want to delete</strong>.</li>
                 <li>Select <strong>Delete Permanently</strong>.</li>
-                <li>The current Gallery should be deleted and you should be <strong>redirected to Galleries</strong>.</li>
+                <li>The selected gallery will be permanently removed and you will be redirected to the <strong>Galleries</strong> page.</li>
             </ol>
-            <img src="${img0015}" alt="Screenshot 0015" class="rounded-sm shadow-md">
+            <img src="${img0015}" alt="Delete Archive Screenshot" class="rounded-sm shadow-md">
 
             ${DividerArticle()}
                     

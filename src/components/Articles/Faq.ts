@@ -4,11 +4,11 @@ import DividerArticle from "../Dividers/Article"
 export default function ArticleFaq(): string {
   return `
     <article id="editor-faq" class="flow">
-        <h3 id="faq" class="text-xl font-serif font-semibold">FAQ</h3>
+        <h3 class="text-xl font-serif font-semibold">FAQ</h3>
         
-        <p>The FAQ page provides a quick reference on how to use the Editor.</p>
+        <p>The FAQ section offers a quick reference guide to help you navigate and use the Editor effectively.</p>
 
-        <img src="${img0017}" alt="Screenshot 0017" class="rounded-sm shadow-md">
+        <img src="${img0017}" alt="FAQ Screenshot" class="rounded-sm shadow-md">
 
         ${DividerArticle()}
         
