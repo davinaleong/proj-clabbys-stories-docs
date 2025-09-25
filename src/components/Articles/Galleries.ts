@@ -6,11 +6,11 @@ import img0010 from "./../../assets/images/0010.png"
 import img0011 from "./../../assets/images/0011.png"
 import img0012 from "./../../assets/images/0012.png"
 import img0013 from "./../../assets/images/0013.png"
-import SectionDivider from "../SectionDivider"
+import DividerArticle from "../Dividers/Article"
 
-export default function EditorGalleries(): string {
+export default function ArticleGalleries(): string {
   return `
-    <section id="editor-galleries" class="flow">
+    <article id="editor-galleries" class="flow">
         <h3 class="text-xl font-serif font-semibold">Galleries</h3>
 
         <nav aria-label="Galleries Submenu" class="bg-neutral-200 p-2 rounded-sm">
@@ -174,9 +174,9 @@ export default function EditorGalleries(): string {
 
         <img src="${img0011}" alt="Screenshot 0011" class="rounded-sm shadow-md">
 
-        ${SectionDivider()}
+        ${DividerArticle()}
 
         <hr>
-    </section>
+    </article>
     `
 }

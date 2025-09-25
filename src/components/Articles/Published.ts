@@ -1,11 +1,11 @@
 import img0001 from "./../../assets/images/0001.png"
 import img0002 from "./../../assets/images/0002.png"
 import img0003 from "./../../assets/images/0003.png"
-import SectionDivider from "../SectionDivider"
+import DividerArticle from "../Dividers/Article"
 
-export default function PublishedGalleries(): string {
+export default function ArticlePublished(): string {
   return `
-        <section id="published-galleries" class="flow">
+        <article id="published-galleries" class="flow">
             <h3 class="text-xl font-serif font-semibold">Published (Private) Galleries</h3>
             <p>Published (private) galleries are accessible to those who have both the link and the passphrase.</p>
 
@@ -26,9 +26,9 @@ export default function PublishedGalleries(): string {
             <p>Select a photo to view a larger version. You can also view its metadata, such as the title, description, and date.</p>
             <img src="${img0003}" alt="Screenshot 0003" class="rounded-sm shadow-md">
 
-            ${SectionDivider()}
+            ${DividerArticle()}
 
             <hr>
-        </section>
+        </article>
     `
 }

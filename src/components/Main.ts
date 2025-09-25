@@ -1,14 +1,14 @@
-import Galleries from "./Galleries"
-import Editor from "./Editor"
-import DocumentDivider from "./DocumentDivider"
+import SectionGalleries from "./Sections/Galleries"
+import SectionEditor from "./Sections/Editor"
+import DividerDocument from "./Dividers/Document"
 
 export default function Main(): string {
   return `
     <main>
         <div class="wrapper bg-white py-4 mx-auto |  flow">
-            ${Galleries()}
-            ${Editor()}
-            ${DocumentDivider()}
+            ${SectionGalleries()}
+            ${SectionEditor()}]
+            ${DividerDocument()}
         </div>
     </main>
     `
