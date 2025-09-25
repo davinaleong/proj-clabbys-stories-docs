@@ -5,6 +5,7 @@ import img0008 from "./../assets/images/0008.png"
 import img0009 from "./../assets/images/0009.png"
 import img0010 from "./../assets/images/0010.png"
 import img0011 from "./../assets/images/0011.png"
+import img0012 from "./../assets/images/0012.png"
 import img0013 from "./../assets/images/0013.png"
 import img0017 from "./../assets/images/0017.png"
 
@@ -147,6 +148,22 @@ export default function Editor(): string {
             <li>Select <strong>Save</strong>.</li>
             <li>Wait till the a toast appears before closing the page.</li>
         </ol>
+
+        <h4 class="font-serif font-semibold">Updating a Photo's Metadata</h4>
+        <p><strong>Steps:</strong></p>
+        <ol class="list-decimal list-inside">
+            <li>Go to the main <strong>Galleries</strong> page.</li>
+            <li>Select an <strong>existing gallery</strong>.</li>
+            <li>Right-click on a <strong>laptop/desktop</strong> or long-tap on a <strong>phone/tablet</strong> to toggle the context menu.</li>
+            <li>Select <strong>Edit Metadata</strong>.</li>
+            <li>Make the changes to the available fields.</li>
+            <li>Select <strong>Save</strong>.</li>
+        </ol>
+
+        <div class="grid grid-cols-2 gap-2">
+          <img src="${img0011}" alt="Screenshot 0011" class="rounded-sm shadow-md">
+          <img src="${img0012}" alt="Screenshot 0012" class="rounded-sm shadow-md">
+        </div>
 
         <hr>
 
