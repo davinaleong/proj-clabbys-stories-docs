@@ -1,22 +1,32 @@
 import img0014 from "./../../assets/images/0014.png"
 import img0015 from "./../../assets/images/0015.png"
 import Menu from "./../Menu"
+import Contents from "./../Contents"
 import DividerArticle from "../Dividers/Article"
 
 const ariaLabel: string = "Editor Menu - Archives Submenu"
-const liList: string = `
+const menuLiList: string = `
     <li><a href="#archives-main" class="underline hover:opacity-70">Main Page</a></li>
     <li><a href="#archives-restore" class="underline hover:opacity-70">Restore an Archive</a></li>
     <li><a href="#archives-delete" class="underline hover:opacity-70">Permanently Delete an Archive</a></li>
 `
-const navMenu: string = Menu(liList, ariaLabel)
+
+const contentLiList: string = `
+    <li><a href="#archives-main">Main Page</a>,</li>
+    <li><a href="#archives-restore">Restore an Archive</a>,</li>
+    <li><a href="#archives-delete">Permanently Delete an Archive</a></li>
+`
+
+const menu: string = Menu(menuLiList, ariaLabel)
+const contents: string = Contents(contentLiList, ariaLabel)
 
 export default function ArticleRestore(): string {
   return `
         <article id="editor-archives" class="flow">
             <h3 class="text-xl font-serif font-semibold">Archives</h3>
 
-            ${navMenu}
+            ${menu}
+            ${contents}
 
             <hr>
 

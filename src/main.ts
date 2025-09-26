@@ -1,4 +1,5 @@
-import "./style.css"
+import "./styles/main.css"
+import "./styles/print.css"
 import Header from "./components/Header"
 import Main from "./components/Main"
 import Footer from "./components/Footer"

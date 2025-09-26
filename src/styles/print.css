@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background-color: theme("colors.white");
+    color: theme("colors.black");
+  }
+}

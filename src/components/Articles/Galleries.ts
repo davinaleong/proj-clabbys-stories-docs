@@ -7,10 +7,11 @@ import img0011 from "./../../assets/images/0011.png"
 import img0012 from "./../../assets/images/0012.png"
 import img0013 from "./../../assets/images/0013.png"
 import Menu from "./../Menu"
+import Contents from "./../Contents"
 import DividerArticle from "../Dividers/Article"
 
 const ariaLabel: string = "Editor - Galleries Submenu"
-const liList: string = `
+const menuLiList: string = `
     <li><a href="#galleries-create" class="underline hover:opacity-70">Create a Gallery</a></li>
     <li><a href="#galleries-edit" class="underline hover:opacity-70">Edit a Gallery</a></li>
     <li><a href="#galleries-add-photos" class="underline hover:opacity-70">Add Photos to a Gallery</a></li>
@@ -21,14 +22,27 @@ const liList: string = `
     <li><a href="#galleries-move" class="underline hover:opacity-70">Move a Photo</a></li>
     <li><a href="#galleries-remove-photo" class="underline hover:opacity-70">Remove a Photo</a></li>
 `
-const navMenu: string = Menu(liList, ariaLabel)
+const contentLiList: string = `
+    <li><a href="#galleries-create" class="">Create a Gallery</a>,</li>
+    <li><a href="#galleries-edit" class="">Edit a Gallery</a>,</li>
+    <li><a href="#galleries-add-photos" class="">Add Photos to a Gallery</a>,</li>
+    <li><a href="#galleries-passphrase" class="">Set a Passphrase</a>,</li>
+    <li><a href="#galleries-archive" class="">Archive a Gallery</a>,</li>
+    <li><a href="#galleries-save" class="">Save a Gallery</a>,</li>
+    <li><a href="#galleries-update" class="">Update Photo Metadata</a>,</li>
+    <li><a href="#galleries-move" class="">Move a Photo</a>,</li>
+    <li><a href="#galleries-remove-photo" class="">Remove a Photo</a></li>
+`
+const menu: string = Menu(menuLiList, ariaLabel)
+const contents: string = Contents(contentLiList, ariaLabel)
 
 export default function ArticleGalleries(): string {
   return `
     <article id="editor-galleries" class="flow">
         <h3 class="text-xl font-serif font-semibold">Galleries</h3>
 
-        ${navMenu}
+        ${menu}
+        ${contents}
 
         <hr>
 
